@@ -21,6 +21,8 @@ print("C. Multiplication")
 print("D. Divsion")
 print("E. Exit")
 
+choice = input("Input your choice: ")
+
 if choice == "a" or "A":
     print("Addition")
     a = int(input("Add first number: "))
@@ -49,4 +51,3 @@ elif choice == "e" or "E":
     print("program ended")
     quit() 
 
-    
